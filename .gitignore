@@ -1,0 +1,28 @@
+
+# Data & model artifacts (regenerate via pipeline, don't commit)
+data/
+hf_cache/
+*.parquet
+*.json
+!package.json
+ 
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+ 
+# LightGBM / model files
+*.txt
+!requirements.txt
+ 
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+ 
+# Env secrets
+.env
