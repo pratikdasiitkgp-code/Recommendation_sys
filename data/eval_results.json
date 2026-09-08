@@ -1,0 +1,14 @@
+{
+  "retrieval_only (ALS)": {
+    "precision@10": 0.0196078431372549,
+    "recall@10": 0.0196078431372549,
+    "ndcg@10": 0.007718185999285392,
+    "n_users_evaluated": 357
+  },
+  "retrieval_plus_ranking (ALS + LightGBM)": {
+    "precision@10": 0.03081232492997199,
+    "recall@10": 0.03081232492997199,
+    "ndcg@10": 0.018009091167437277,
+    "n_users_evaluated": 357
+  }
+}
