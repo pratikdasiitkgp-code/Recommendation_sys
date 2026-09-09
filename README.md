@@ -4,6 +4,8 @@ A two-stage recommendation pipeline (retrieval + ranking) built on the
 Amazon Reviews 2023 dataset, modeled after how production systems at
 companies like Amazon/Netflix/Meta are structured.
 
+**🔗 Live demo:** https://recommendationsys-amznpd.streamlit.app/
+
 ## Architecture
 
 ```
@@ -65,8 +67,7 @@ their top-K ranked recommendations as cards (title, price, rating, rank score),
 alongside a live sidebar comparing retrieval-only vs. full-pipeline NDCG@10 —
 useful both as a portfolio demo and as a way to sanity-check the pipeline output.
 
-Deploys for free on [Streamlit Community Cloud](https://share.streamlit.io) by
-connecting this repo and pointing it at `streamlit_app.py`.
+Live version deployed at: https://recommendationsys-amznpd.streamlit.app/
 
 
 ## Design decisions worth explaining in an interview
